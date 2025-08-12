@@ -60,12 +60,12 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        My inbox is open in case you have any questions or just wanna say a hello!
-        Let's get in touch if you have any relevant roles for me!
+      I’m currently open to new opportunities — feel free to reach out 
+      with any relevant roles or just to say hello!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Mail Me!
+        yesha.raval04@gmail.com!
       </a>
     </StyledContactSection>
   );

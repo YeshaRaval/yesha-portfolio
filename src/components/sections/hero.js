@@ -8,13 +8,16 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
-  height: 100vh;
+  min-height: calc(100vh - var(--nav-height));
+  height: calc(100vh - var(--nav-height));
   padding: 0;
+  margin: 0;
+  margin-top: var(--nav-height);
 
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
     height: auto;
-    padding-top: var(--nav-height);
+    min-height: calc(100vh - var(--nav-height));
+    margin-top: var(--nav-height);
   }
 
   h1 {
@@ -59,36 +62,31 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Namaste! My name is</h1>;
-  const two = <h2 className="big-heading">Chandrika Deb</h2>;
-  const three = <h3 className="medium-heading">MBA | Digital Marketing | Freelance Blogger</h3>;
+  const one = <h1>Hey! My name is</h1>;
+  const two = <h2 className="big-heading">Yesha Raval.</h2>;
+  const three = <h3 className="medium-heading">AWS Certified | Turning Data into Decisions</h3>;
   const four = (
     <>
+
       <p>
-        <b>Glad to e-meet you!</b>
+
       </p>
+      I am software engineer, with a strong foundation in AI/ML concepts, exploring
+      <br />GenAI applications through cloud architecture.
 
       <p>
-        I am Chandrika Deb, an alumnus of {' '} <a href="http://www.iimrohtak.ac.in">
-        IIM Rohtak</a> {' '} and {' '} <a href="https://www.bitmesra.ac.in">BIT Mesra</a> {' '} currently spearheading impactful digital marketing initiatives at {' '}
-        <a href="https://www.tatasteel.com">Tata Steel</a>.
-      </p>
-
-
-      <p>
-        When not decoding the customer journey, you can find me sketching on {' '}
-        <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}
-        <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.
+        When not coding, I enjoy pickleball, football, and board games
+        like Catan — great ways to relax and connect.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://chandrikadeb7.gumroad.com"
+      href="/resume.pdf"
       target="_blank"
       rel="noreferrer">
-      Check out my products!
+      Check out my resume!
     </a>
   );
 

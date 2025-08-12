@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Chandrika Deb',
+    title: 'Yesha Raval',
     description:
-      'Chandrika Deb is an IIM alumnus who spearheads marketing initiatives at Tata Steel and is also a freelance tech blogger.',
-    siteUrl: 'https://chandrikadeb7.github.io', // No trailing slash allowed!
+      'Yesha Raval is a marketing professional and developer passionate about creating impactful digital experiences.',
+    siteUrl: 'https://yesharaval.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@chandrikadeb7',
+    twitterUsername: '@yesharaval',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,12 +16,11 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Chandrika Deb',
-        short_name: 'Chandrika Deb',
+        name: 'Yesha Raval',
+        short_name: 'Yesha Raval',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
