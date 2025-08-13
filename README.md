@@ -1,24 +1,28 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/chandrikadeb7/chandrikadeb7.github.io/blob/code/src/images/logo.png" width="100" />
+  <img alt="Logo" src="src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Personal Portfolio Website
+  Yesha Raval - Portfolio Website
 </h1>
 <p align="center">
-  The second iteration of <a href="https://chandrikadeb7.github.io/" target="_blank">chandrikadeb7.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted using <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  Personal portfolio website of <a href="https://yesha.codes/" target="_blank">Yesha Raval</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and deployed on <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
-  Previous iterations:
-  <a href="https://github.com/chandrikadeb7/chandrikadeb7.github.io-v1" target="_blank">Version 1</a>
+  AWS Certified Software Engineer | AI/ML Enthusiast | GenAI Explorer
 </p>
 
-<div align="center">
-  <img alt="Demo" src="https://github.com/chandrikadeb7/chandrikadeb7.github.io/blob/code/src/images/demo.png" />
-</div>
+## 🚀 About Me
 
-### TL;DR
+I'm an AWS Certified Software Engineer with expertise in AI/ML and GenAI applications. Passionate about turning data into decisions through innovative cloud architecture. When not coding, I enjoy pickleball, football, and board games like Catan.
 
-Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+### 🔗 Links
+- **Portfolio**: [yesha.codes](https://yesha.codes/)
+- **LinkedIn**: [linkedin.com/in/yesha-raval04](https://www.linkedin.com/in/yesha-raval04/)
+- **GitHub**: [github.com/YeshaRaval](https://github.com/YeshaRaval)
+
+### 📄 Credits
+
+This portfolio is based on the amazing template by [Brittany Chiang](https://brittanychiang.com). Original design forked and customized with personal branding and content.
 
 ## 🛠 Installation & Set Up
 
@@ -46,7 +50,7 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    npm start
    ```
 
-## 🚀 Building and Running for Production (GitHub Pages)
+## 🚀 Building and Running for Production (Vercel)
 
 1. Generate a full static production build
 
@@ -54,11 +58,13 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    gatsby build
    ```
 
-2. Push to production
+2. Deploy to Vercel
 
    ```sh
-   npm run deploy
+   vercel --prod
    ```
+
+   Or simply push to GitHub - Vercel will automatically deploy from the connected repository.
 
 ## 🎨 Color Reference
 

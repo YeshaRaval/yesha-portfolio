@@ -83,7 +83,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="/resume.pdf"
+      href="/new_resume.pdf"
       target="_blank"
       rel="noreferrer">
       Check out my resume!

@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Yesha Raval',
     description:
-      'Yesha Raval is a marketing professional and developer passionate about creating impactful digital experiences.',
-    siteUrl: 'https://yesharaval.github.io', // No trailing slash allowed!
+      'Yesha Raval is an AWS Certified Software Engineer with expertise in AI/ML and GenAI applications. Passionate about turning data into decisions through innovative cloud architecture.',
+    siteUrl: 'https://yesha.codes', // No trailing slash allowed
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@yesharaval',
   },
