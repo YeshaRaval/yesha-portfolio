@@ -6,7 +6,6 @@ module.exports = {
     description:
       'Yesha Raval is an AWS Certified Software Engineer with expertise in AI/ML and GenAI applications. Passionate about turning data into decisions through innovative cloud architecture.',
     siteUrl: 'https://yesha.codes', // No trailing slash allowed
-    image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@yesharaval',
   },
   plugins: [
