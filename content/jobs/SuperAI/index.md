@@ -3,7 +3,7 @@ date: '2022-07-05'
 title: 'Creative Head'
 company: 'SuperAI Community'
 location: 'Thakur College of Engineering and Technology'
-range: 'August 2022 - September 2024'
+range: 'August 2022 - May 2024'
 url: 'https://www.tcetmumbai.in/AIML/AIML_Events.html'
 ---
 
