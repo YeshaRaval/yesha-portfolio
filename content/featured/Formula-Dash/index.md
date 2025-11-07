@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'FormulaDash - F1 Analytics'
 cover: './formula-dash.png'
 external: 'https://formula-dash.info/'
@@ -12,4 +12,4 @@ tech:
   - AWS EC2
 ---
 
-FormulaDash — Interactive, filterable views for race results, driver statistics, and team performance. Real-time data updates with visually engaging charts and comparisons. Historical performance tracking with trend analysis for deeper insights.
+FormulaDash — Interactive, filterable views for race results, driver statistics, and team performance. Comapre driver lap times with visually engaging charts and comparisons. Historical performance tracking with trend analysis for deeper insights.

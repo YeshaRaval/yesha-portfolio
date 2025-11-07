@@ -116,8 +116,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            Hi, I’m Yesha — a software engineer building practical solutions.
-            I graduated in AI and ML, working with deep learning, computer vision, and generative AI.
+            Hi, I’m Yesha — a software engineer building practical solutions.  
+            <br/>  I completed my Btech in AI and ML from Thakur College of Engineering and Technology (May 2025).
             </p>
 
             <p>

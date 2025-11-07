@@ -14,7 +14,6 @@ tech:
 ---
 
 Medi-Portal — Secure login with role-based dashboards for doctors and receptionists.
-Real-time appointment scheduling, patient record management, and notifications.
 Integrated patient history and service management for streamlined healthcare operations.
 
 

@@ -75,8 +75,8 @@ const Hero = () => {
       <br />GenAI applications through cloud architecture.
 
       <p>
-        When not coding, I enjoy pickleball, football, and board games
-        like Catan — great ways to relax and connect.
+        I have an innate curiosity that drives me to create innovative and 
+        <br/> impactful tech solutions through creativity and problem-solving.
       </p>
     </>
   );

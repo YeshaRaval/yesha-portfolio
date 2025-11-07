@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '5'
 title: 'StatSense : Auto EDA'
 cover: './statsense.png'
 github: 'https://github.com/YeshaRaval/StatSense'
