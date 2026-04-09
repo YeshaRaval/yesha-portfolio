@@ -232,9 +232,7 @@ const About = () => {
             </p>
 
             <p>
-            I led GATE-DehazNet, a model for satellite image dehazing combining GANs, attention, and transformers to outperform baselines. 
-            <a href="https://docs.google.com/document/d/1NyrNwC-maJONZ3Q0hyyngYKdnXzuvv3B/edit"> GATE-Dehaze: A GAN-Attention-Transformer Ensemble for Satellite Image Dehazing </a>
-            has been accepted for publication in the SCOPUS indexed <a href="https://dergipark.org.tr/en/pub/tuzal"> Turkish Journal of Remote Sensing </a>
+            I led GATE-DehazNet, a model for satellite image dehazing combining GANs, attention, and transformers to outperform baselines.<a href="https://docs.google.com/document/d/1NyrNwC-maJONZ3Q0hyyngYKdnXzuvv3B/edit"> GATE-Dehaze: A GAN-Attention-Transformer Ensemble for Satellite Image Dehazing</a>has been accepted for publication in the SCOPUS indexed <a href="https://dergipark.org.tr/en/pub/tuzal"> Turkish Journal of Remote Sensing </a>
     
             </p>
 
