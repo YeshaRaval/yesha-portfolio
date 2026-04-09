@@ -195,7 +195,7 @@ const certifications = [
   },
   {
     name: 'AWS Certified Solutions Architect - Associate',
-    url: 'https://www.credly.com/users/yesha-raval.446f6baf/badges#credly',
+    url: 'https://www.credly.com/badges/2b15bf28-4a64-403b-b975-79407673a0a9',
     image: 'https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png',
   },
   {
