@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '5'
 title: 'GATE-Dehaze - A GAN-Attention-Transformer Ensemble for Dehazing'
 cover: './Dehaze.png'
 github: 'https://github.com/YeshaRaval/satellite-dehazing'
