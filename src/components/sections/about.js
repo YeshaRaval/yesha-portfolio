@@ -94,6 +94,105 @@ const StyledPic = styled.div`
   }
 `;
 
+const StyledCertifications = styled.div`
+  margin-top: 60px;
+
+  h3 {
+    color: var(--lightest-slate);
+    font-size: var(--fz-xl);
+    margin-bottom: 30px;
+    font-weight: 500;
+
+    &:before {
+      content: '▹';
+      margin-right: 10px;
+      color: var(--green);
+    }
+  }
+
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+
+    @media (max-width: 768px) {
+      gap: 30px;
+      justify-content: center;
+    }
+  }
+
+  .badge-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: var(--transition);
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      transform: translateY(-5px);
+
+      .badge-hex {
+        filter: drop-shadow(0 8px 20px rgba(100, 255, 218, 0.3));
+      }
+
+      .badge-name {
+        color: var(--green);
+      }
+    }
+  }
+
+  .badge-hex {
+    width: 120px;
+    height: 120px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    overflow: hidden;
+    transition: var(--transition);
+
+    @media (max-width: 480px) {
+      width: 100px;
+      height: 100px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .badge-name {
+    color: var(--light-slate);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    text-align: center;
+    max-width: 120px;
+    line-height: 1.4;
+    transition: var(--transition);
+  }
+`;
+
+const certifications = [
+  {
+    name: 'AWS Certified AI Practitioner - Foundational',
+    url: 'https://www.credly.com/users/yesha-raval.446f6baf/badges#credly',
+    image: 'https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png',
+  },
+  {
+    name: 'AWS Certified Solutions Architect - Associate',
+    url: 'https://www.credly.com/users/yesha-raval.446f6baf/badges#credly',
+    image: 'https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png',
+  },
+  {
+    name: 'AWS Certified Developer - Associate',
+    url: 'https://www.credly.com/users/yesha-raval.446f6baf/badges#credly',
+    image: 'https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png',
+  },
+];
+
 const About = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -154,6 +253,26 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
+
+      <StyledCertifications>
+        <h3>Certifications</h3>
+        <div className="badges">
+          {certifications.map(({ name, url, image }, i) => (
+            <a
+              key={i}
+              className="badge-link"
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Verify ${name} certification`}>
+              <div className="badge-hex">
+                <img src={image} alt={name} />
+              </div>
+              <span className="badge-name">{name}</span>
+            </a>
+          ))}
+        </div>
+      </StyledCertifications>
     </StyledAboutSection>
   );
 };
