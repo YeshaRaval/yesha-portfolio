@@ -190,17 +190,17 @@ const StyledCertifications = styled.div`
 const certifications = [
   {
     name: 'AWS Certified AI Practitioner - Foundational',
-    url: 'https://www.credly.com/badges/ed087278-5b33-40dc-8b7b-31fa7b5ee958',
+    url: 'https://www.credly.com/badges/ed087278-5b33-40dc-8b7b-31fa7b5ee958/public_url',
     image: 'https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png',
   },
   {
     name: 'AWS Certified Solutions Architect - Associate',
-    url: 'https://www.credly.com/badges/2b15bf28-4a64-403b-b975-79407673a0a9',
+    url: 'https://www.credly.com/badges/2b15bf28-4a64-403b-b975-79407673a0a9/public_url',
     image: 'https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png',
   },
   {
     name: 'AWS Certified Developer - Associate',
-    url: 'https://www.credly.com/earner/earned/badge/c531c373-885a-4297-bc90-2459873d1857',
+    url: 'https://www.credly.com/badges/c531c373-885a-4297-bc90-2459873d1857/public_url',
     image: 'https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png',
   },
 ];
