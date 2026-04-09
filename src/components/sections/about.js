@@ -117,18 +117,19 @@ const About = () => {
           <div>
             <p>
             Hi, I’m Yesha — a software engineer building practical solutions.  
-            <br/>  I completed my Btech in AI and ML from Thakur College of Engineering and Technology (May 2025).
+            <br/>  I completed my Btech in AI and ML from Thakur College of Engineering and Technology (May 2025) with a CGPA of 9.57/10.
             </p>
 
             <p>
-            I led GATE-DehazNet, a model for satellite image dehazing and visual question answering, 
-            combining GANs, attention, and transformers to outperform baselines.
+            I led GATE-DehazNet, a model for satellite image dehazing combining GANs, attention, and transformers to outperform baselines. 
+            My paper titled 'GATE-Dehaze: A GAN-Attention-Transformer Ensemble for Satellite Image Dehazing'
+            has been accepted for publication in the SCOPUS indexed <a href="https://dergipark.org.tr/en/pub/tuzal"> Turkish Journal of Remote Sensing </a>
     
             </p>
 
             <p>
-            Currently, I’m {''} <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/a86465eafd9b42afb1b415dbb8c8e9c3">AWS AI Practitioner</a> certified and working on cloud-native AI applications 
-            with Amazon Bedrock. Projects like <a href="https://medical-portal-beta.vercel.app/">Medi-Portal</a> and <a href="https://formula-dash.info/">FormulaDash</a>  help me bring together 
+            Currently, I’m {''} <a href="https://www.credly.com/users/yesha-raval.446f6baf/badges#credly"> 3X AWS certified  </a> and working on cloud-native AI applications 
+            using AWS Infrastructure. Projects like <a href="https://medical-portal-beta.vercel.app/">Medi-Portal</a> and <a href="https://formula-dash.info/">FormulaDash</a>  help me bring together 
             data-driven insights and scalable systems.
             </p>
 
