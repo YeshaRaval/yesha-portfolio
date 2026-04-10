@@ -9,4 +9,4 @@ url: 'https://aastha-billing.vercel.app/'
 
 - Optimized a WordPress e-commerce site by customizing themes, integrating plugins, and enhancing performance for better user experience and conversion rates. 
 
--  Developed a Python-based (Streamlit) billing system with dynamic product management, automated discount & GST calculation, PDF invoice generation, and cloud hosting. 
+-  Developed a Next.js billing system with dynamic product management, automated discount & GST calculation, PDF invoice generation and analytics dashbaord for visual insights. 
