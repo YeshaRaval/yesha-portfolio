@@ -2,9 +2,9 @@
 date: '4'
 title: 'Billing & Dashboard - Aastha Apparel Atelier'
 cover: './aastha-billing.png'
-external: 'https://www.linkedin.com/in/aastha-bairolia-a60a33212/'
+external: 'https://aastha-billing.vercel.app/'
 github: ''
-cta: 'https://www.linkedin.com/in/aastha-bairolia-a60a33212/'
+cta: 'https://aastha-billing.vercel.app/'
 tech:
   - Next.js
   - PDF Generation 
