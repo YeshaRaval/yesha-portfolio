@@ -239,7 +239,7 @@ const About = () => {
 
             <p>
             Currently, I’m {''} <a href="https://www.credly.com/users/yesha-raval.446f6baf/badges#credly"> 3X AWS certified  </a> and working on cloud-native AI applications 
-            using AWS Infrastructure. Projects like <a href="https://medical-portal-beta.vercel.app/">Medi-Portal</a> and <a href="https://formula-dash.info/">FormulaDash</a>  help me bring together 
+            using AWS Infrastructure. Projects like <a href="https://medical-portal-beta.vercel.app/">Medi-Portal</a> and <a href="https://formula-dash.streamlit.app/">FormulaDash</a>  help me bring together 
             data-driven insights and scalable systems.
             </p>
 
