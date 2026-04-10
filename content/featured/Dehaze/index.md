@@ -13,7 +13,7 @@ tech:
 
 GATE-Dehaze - It uses ensemble methodology and gets the best result out of 4 different models, 
 in comparison with state of the art models our proposed model gave on an average a 27% 
-improvement in SSIM and PSNR values.
+improvement in SSIM and PSNR values. Paper accepted by SCOPUS indexed Turkish Journal of Remote Sensing, too be published soon.
 
 
 
