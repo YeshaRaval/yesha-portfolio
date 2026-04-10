@@ -3,8 +3,8 @@ date: '5'
 title: 'GATE-Dehaze - A GAN-Attention-Transformer Ensemble for Dehazing'
 cover: './Dehaze.png'
 github: 'https://github.com/YeshaRaval/satellite-dehazing'
-external: 'https://docs.google.com/document/d/1NyrNwC-maJONZ3Q0hyyngYKdnXzuvv3B/edit'
-cta : 'https://docs.google.com/document/d/1NyrNwC-maJONZ3Q0hyyngYKdnXzuvv3B/edit'
+external: 'https://docs.google.com/document/d/1RDBtjtA1UqPe39hqT_OENJQAthiBbBI7CE362XM8e4k/edit?usp=sharing'
+cta : 'https://docs.google.com/document/d/1RDBtjtA1UqPe39hqT_OENJQAthiBbBI7CE362XM8e4k/edit?usp=sharing'
 tech:
   - Generative Adversial Networks 
   - Ensemble Model
