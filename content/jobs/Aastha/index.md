@@ -4,7 +4,7 @@ title: 'Technical Intern'
 company: "Aastha's Apparel Atelier"
 location: 'Mumbai, India'
 range: 'June 2024 - August 2024'
-url: ''
+url: 'https://aastha-billing.vercel.app/'
 ---
 
 - Optimized a WordPress e-commerce site by customizing themes, integrating plugins, and enhancing performance for better user experience and conversion rates. 
