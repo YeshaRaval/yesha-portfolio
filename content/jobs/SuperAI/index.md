@@ -1,7 +1,7 @@
 ---
 date: '2022-07-05'
-title: 'Creative Head'
-company: 'SuperAI Community'
+title: 'Core Member'
+company: 'SuperAI Community Stakeholder Connect'
 location: 'Thakur College of Engineering and Technology'
 range: 'August 2022 - May 2024'
 url: 'https://www.tcetmumbai.in/AIML/AIML_Events.html'
