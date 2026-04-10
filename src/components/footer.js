@@ -91,8 +91,8 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <div>Designed &amp; Built by Brittany Chiang<br></br>
-        Revised by Yesha Raval
+        <div><br></br>
+        Yesha Raval
         </div>
       </StyledCredit>
     </StyledFooter>
